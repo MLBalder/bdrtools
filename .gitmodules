@@ -1,3 +1,0 @@
-[submodule "libs/love-struct"]
-	path = libs/love-struct
-	url = https://github.com/Kadoba/love-struct.git
