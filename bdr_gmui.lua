@@ -63,8 +63,8 @@ function Menu:showSubTree(node)
 	print(node)
 	print(#node)
 	clearGMFunctions()
-	if(self.showBackToRoot)then
-		addGMFunction("/root", function() self:build() end)
+	if(self.showBackToRoot and node and node:get())then
+		addGMFunction("/root - current: " .. node:get():getTitle(), function() self:build() end)
 	end
 	if(node and node:get() and node.parent)then
 		print("back btn")
