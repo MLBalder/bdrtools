@@ -3,9 +3,9 @@ Lua tools for emptyEpsilon
 contains the following scripts:
 
 # bdr_gmui.lua
-requires require "libs/love-struct/tree.lua"
+require "libs/love-struct/tree.lua"
 
 Contains:
-##gmui.menu
+## gmui.menu
 A lightweight multi-level menu UI for Empty Epsilon
 Last update for EE-2020.03.22
